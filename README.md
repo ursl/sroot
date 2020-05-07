@@ -10,6 +10,6 @@ make swift <br>
 ./main-swift <br>
 
 
-Issues on raspberry pi 
+Issues on raspberry pi: 
 
 error: 'objc/blocks_runtime.h' file not found
