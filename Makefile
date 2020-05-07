@@ -17,6 +17,8 @@ main-swift.o: main.swift $(OPPFILES) $(CPPFILES)
 main-cpp.o: main.cc $(OPPFILES) $(CPPFILES)
 	clang++ -c $< -o $@
 
+all: cpp swift
+
 swift: main-swift.o
 	swiftc -o main-swift -framework Foundation -lc++ $< asimpleW.o asimple.o
 
