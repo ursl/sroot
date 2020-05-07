@@ -1,4 +1,3 @@
-//#import "asimple.hh"
 #include <Foundation/Foundation.h>
 
 @interface asimpleW: NSObject
