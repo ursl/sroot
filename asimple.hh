@@ -1,7 +1,5 @@
 #include <string>
 
-// g++ asimple.cc -shared -o libasimple.so
-
 class asimple {
 
 public:
