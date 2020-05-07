@@ -1,8 +1,6 @@
 #import "asimpleW.h"
 #import "asimple.hh"
 
-// clang -shared -framework Foundation -lstdc++ -lc++ libasimple.so asimpleW.mm -o asimpleW.so
-
 @implementation asimpleW
 
 - (void)printMe {
